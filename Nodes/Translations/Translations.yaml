@@ -1,0 +1,20 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [5,4],
+    "Body": [
+     "","en-US","de-DE","es-MX",
+     "Hello world","Hello world","Halo Welt","Hola mundo",
+     "English","English","Englisch","Inglés",
+     "German","German","Deutsch","Alemán",
+     "Spanish","Spanish","Spanisch","Español"
+    ]
+   }

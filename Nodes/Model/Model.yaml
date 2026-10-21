@@ -1,0 +1,32 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Temperature
+  Type: AnalogItemType
+  DataType: Float
+  Value: 32.0
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Type: BaseDataVariableType
+      DataType: Double
+  - Name: EngineeringUnits
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4604232
+    - Name: DisplayName
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Type: BaseDataVariableType
+      DataType: LocalizedText

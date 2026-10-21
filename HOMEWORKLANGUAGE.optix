@@ -1,0 +1,47 @@
+Project:
+ Name: HOMEWORKLANGUAGE
+ GUID: 9408b28f5aaed7fde5ed5805f742e1ec
+ ProjectNamespaceIndex: 7
+ DisplayName: ''
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.7
+ CoreVersion: 5.0
+ EncryptionVersion: 1
+ EncryptionMode: Secrets
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 6.1
+  3:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 21.2
+  4:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 9.0
+  5:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 3.3
+  6:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 1.0
+ Statistics:
+  TotalNodeCount: 316
+  Objects: 114
+  ObjectTypes: 2
+  Variables: 200
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 1
+  ReferenceTypes: 0
+  Files: 22
+ Nodes:
+ - File: Nodes/HOMEWORKLANGUAGE.yaml
